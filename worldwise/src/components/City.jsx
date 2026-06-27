@@ -25,10 +25,8 @@ function City() {
   useEffect(
     function () {
       getCity(id);
-
-      console.log(currentCity);
     },
-    [id],
+    [id, getCity],
   );
 
   if (isLoading) return <Spinner />;
