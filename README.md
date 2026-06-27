@@ -1,2 +1,8 @@
+
 # WorldWiseApp
-Building a simple app that saves visited places  using REACT
+
+### run App 
+`npm run dev`
+### run server to fetch data.json 
+`npm run server`
+
